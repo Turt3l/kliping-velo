@@ -5,8 +5,8 @@
                 <img src="../assets/images/M.png">
             </div>
             <div class="header-links">
-                <a href="#about" class="about">about</a>
-                <a href="#history" class="history">history</a>
+                <a href="#about" class="about">par</a>
+                <a href="#history" class="history">vēsture</a>
             </div>
         </div>
     </div>

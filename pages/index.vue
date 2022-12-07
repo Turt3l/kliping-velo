@@ -8,9 +8,9 @@
     </div>
     <Header />
     <LandingSection class="padding"/>
-    <History id="history"/>
-    <!-- <Gallery/> -->
     <ContactMe/>
+    <History id="history"/>
+    <Footer/>
   </div>
 </template>
 
