@@ -324,8 +324,9 @@ h3 {
 }
 
 article {
+    padding-right: 20px;
     box-sizing: border-box;
-    width: 33%;
+    width: 30%;
     padding-bottom: 1rem;
     border-bottom: 1px solid #4d4d4d;
 }
@@ -335,6 +336,7 @@ h1 {
 }
 
 .slide-content-wrap {
+    justify-content: center;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
@@ -499,6 +501,7 @@ h1 {
   .textContainer img:hover{
     filter: none;
   }
+
   .line {
     width: 100%;
     height: 1px;
@@ -540,6 +543,7 @@ h1 {
     }
   }
   @media only screen and (max-width: 1450px) {
+
     .aboutImage img {
         padding-right: 0px;
     }
@@ -557,8 +561,26 @@ h1 {
     .contactWrapper {
         display: block;
     }
+    .timelineContainer {
+        padding: 0 30px;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .row {
+
+        width: 33%;
+    }
+    .event {
+        width: 100%;
+    }
+    .line::after{
+        display: none;
+    }
   }
   @media only screen and (max-width: 900px) {
+    .row {
+        width: 100%;
+    }
     .aboutText {
         font-size: 20px;
         line-height: 25px;
@@ -580,15 +602,11 @@ h1 {
     article {
         width: 100%;
     }
-    .line::after{
-        display: none;
-    }
-    .event {
-        width: 100%;
-    }
+
   }
   @media only screen and (max-width: 700px) {
     .aboutImage {
         justify-content: normal;
     }
+
   }
