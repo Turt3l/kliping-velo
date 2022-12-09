@@ -1,6 +1,6 @@
 <template>
     <div class="slide-content-wrap" style="justify-content: center">
-        <h1>Galerija</h1>
+        <h1>{{$t('Galerija')}}</h1>
         <div class="galleryWrap">
             <div class="activeImage">
                 <img :src="activePic">
@@ -15,6 +15,17 @@
         </div>
     </div>
 </template>
+
+<i18n>
+{ 
+    "lv": {
+        "Galerija": "Galerija"
+    },
+    "en": {
+        "Galerija": "Gallery"
+    }
+}
+</i18n>
 
 <script>
 import image from '../../assets/images/galerija/galerija 01.jpg';

@@ -5,12 +5,25 @@
                 <img src="../assets/images/M.png">
             </div>
             <div class="header-links">
-                <a href="#about" class="about">par</a>
-                <a href="#history" class="history">vēsture</a>
+                <a href="#about" class="about">{{$t('par')}}</a>
+                <a href="#history" class="history">{{$t('vēsture')}}</a>
             </div>
         </div>
     </div>
 </template>
+
+<i18n>
+    {
+        "lv": {
+            "par": "par",
+            "vēsture": "vēsture"
+        },
+        "en": {
+            "par": "about",
+            "vēsture": "history"
+        }
+    }
+</i18n>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap');
@@ -24,3 +37,45 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     })
 })
 </script>
+
+<!-- <template>
+    <div class="page-header">
+        <div class="wrap">
+            <div class="header-logo">
+                <img src="../assets/images/M.png">
+            </div>
+            <div class="header-links">
+                <nuxt-link v-if="$i18n.locale == 'lv'" :to="switchLocalePath('en')">ENG</nuxt-link>
+                <nuxt-link v-if="$i18n.locale == 'en'" :to="switchLocalePath('lv')">LV</nuxt-link>      
+            </div>
+        </div>
+    </div>
+</template>
+
+<i18n>
+    {
+        "lv": {
+            "par": "par",
+            "vēsture": "vēsture"
+        },
+        "en": {
+            "par": "about",
+            "vēsture": "history"
+        }
+    }
+</i18n>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap');
+</style>
+
+<script>
+import Vue from 'vue'
+export default {
+    methods: {
+        toggleLanguages () {
+            
+        }
+    }
+}
+</script> -->

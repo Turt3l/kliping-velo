@@ -22,7 +22,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  router: {
+    base: "/kliping-velo/"
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/style.css'
@@ -37,11 +39,27 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/i18n',
   ],
 
+  pwa: {
+    manifest: {
+      lang: 'en'
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/pwa',
+      '@nuxtjs/gtm',
+      'nuxt-lazy-load'
+    ]
   ],
+  i18n: {
+    locales: ['lv', 'en'],
+    defaultLocale: 'lv',
+    vueI18nLoader: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
