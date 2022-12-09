@@ -517,6 +517,9 @@ h1 {
   }
 
   @media only screen and (max-width: 1500px) {
+    .swiper {
+        width: 100%;
+    }
     .quote-wrapper {
         font-size: 50px;
         width: 100%;
@@ -537,6 +540,9 @@ h1 {
     }
   }
   @media only screen and (max-width: 1450px) {
+    .aboutImage img {
+        padding-right: 0px;
+    }
     .aboutText {
         width: 100%;
     }
@@ -553,7 +559,6 @@ h1 {
     }
   }
   @media only screen and (max-width: 900px) {
-
     .aboutText {
         font-size: 20px;
         line-height: 25px;
@@ -570,19 +575,20 @@ h1 {
     }
     .picture-container img {
         width: 100vw;
+        padding-right: 0;
     }
     article {
         width: 100%;
     }
-    line::after{
+    .line::after{
         display: none;
+    }
+    .event {
+        width: 100%;
     }
   }
   @media only screen and (max-width: 700px) {
     .aboutImage {
         justify-content: normal;
-    }
-    .event {
-        width: 100%;
     }
   }

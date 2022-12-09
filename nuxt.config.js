@@ -55,11 +55,12 @@ export default {
   ],
   i18n: {
     locales: ['lv', 'en'],
-    defaultLocale: 'lv',
+    defaultLocale: 'en',
     vueI18nLoader: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    
   }
 }
