@@ -12,6 +12,7 @@
     <ContactMe/>
     <Timeline />
     <History id="history"/>
+    <Gallery/>
     <Footer/>
   </div>
   </div>

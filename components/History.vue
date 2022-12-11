@@ -21,13 +21,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="slide-content">
-                            <div class="slide-container">
-                                <Gallery />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -37,7 +30,7 @@
 <script>
     const { default: AdventuresVue } = require("./slideContent/Adventures.vue");
     const { default: OtherBikes } = require("./slideContent/OtherBikes.vue");
-    const { default: Gallery } = require("./slideContent/Gallery.vue");
+    const { default: Gallery } = require("./Gallery.vue");
     import { Swiper, Pagination, Autoplay } from 'swiper'
     import 'swiper/swiper-bundle.css'
     export default {

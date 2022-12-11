@@ -138,7 +138,7 @@ html ::-webkit-scrollbar {
     display: flex;
     justify-content: center;
 }
-.slide-content p {
+article p {
     color: white;
     font-family: 'Raleway';
     font-style: normal;
@@ -352,7 +352,7 @@ h1 {
 }
 .activeImage {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 .image {
@@ -518,7 +518,12 @@ h1 {
     background: #fff;
     display:inline-block;
   }
-
+  .galleryContainer {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+  }
   @media only screen and (max-width: 1500px) {
     .swiper {
         width: 100%;

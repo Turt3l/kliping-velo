@@ -1,5 +1,5 @@
 <template>
-    <div class="slide-content-wrap" style="justify-content: center">
+    <div class="galleryContainer">
         <h1>{{$t('Galerija')}}</h1>
         <div class="galleryWrap">
             <div class="activeImage">
@@ -28,13 +28,13 @@
 </i18n>
 
 <script>
-import image from '../../assets/images/galerija/galerija 01.jpg';
-import image2 from '../../assets/images/galerija/galerija02.jpg';
-import image3 from '../../assets/images/galerija/galerija03.jpg';
-import image4 from '../../assets/images/galerija/galerija04.jpg';
-import image5 from '../../assets/images/galerija/galerija05 fotogrāfs Jānis Saliņš.jpg';
-import image6 from '../../assets/images/galerija/galerija06.jpg';
-import image7 from '../../assets/images/galerija/galerija07.jpg';
+import image from '../assets/images/galerija/galerija 01.jpg';
+import image2 from '../assets/images/galerija/galerija02.jpg';
+import image3 from '../assets/images/galerija/galerija03.jpg';
+import image4 from '../assets/images/galerija/galerija04.jpg';
+import image5 from '../assets/images/galerija/galerija05 fotogrāfs Jānis Saliņš.jpg';
+import image6 from '../assets/images/galerija/galerija06.jpg';
+import image7 from '../assets/images/galerija/galerija07.jpg';
     export default {
         data() {
             return {
