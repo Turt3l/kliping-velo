@@ -6,7 +6,7 @@
             </div>
             <div class="header-links">
                 <nuxt-link :to="switchLocalePath('lv')" class="about" v-if="$i18n.locale == 'en'">lv</nuxt-link>
-                <nuxt-link :to="switchLocalePath('en')" class="about" v-if="$i18n.locale == 'lv'">en</nuxt-link>
+                <nuxt-link :to="switchLocalePath('en')" class="about" v-if="$i18n.locale == 'lv'">eng</nuxt-link>
             </div>
         </div>
     </div>
