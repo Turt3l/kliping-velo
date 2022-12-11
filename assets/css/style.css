@@ -579,23 +579,19 @@ h1 {
   }
   @media only screen and (max-width: 1300px) {
     .row {
-
         width: 33%;
-    }
-    .event {
-        width: 100%;
     }
     .line::after{
         display: none;
+    }
+    .event {
+        width: 50%;
     }
   }
   @media only screen and (max-width: 900px) {
     .fullcap {
         font-size: 20px;
         line-height: 20px;
-    }
-    .row {
-        width: 100%;
     }
     .aboutText {
         font-size: 20px;
@@ -624,20 +620,16 @@ h1 {
 
   }
   @media only screen and (max-width: 700px) {
+    .row {
+        width: 100%;
+    }
     .aboutImage {
         justify-content: normal;
     }
 
   }
-
-
-
-
-
-
-
-.forward {
-    width: 50px;
-    height: 50px;
-    background-color: wheat;
-}
+  @media only screen and (max-width: 600px) {
+    .event {
+        width: 100%;
+    }
+  }
