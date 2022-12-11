@@ -11,7 +11,8 @@
     <LandingSection class="padding"/>
     <ContactMe/>
     <Timeline />
-    <History id="history"/>
+    <Adventures/>
+    <OtherBikes/>
     <Gallery/>
     <Footer/>
   </div>

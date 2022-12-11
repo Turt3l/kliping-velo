@@ -28,7 +28,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/standard highwheels.jpg" />
+                        <img src="../assets/images/citi velosipēdi/standard highwheels.jpg" />
                         <div class="fullcap">
                             {{$t('Standard highwheels racer 52” Velosipēds ar kuru pirmo reizi mūžā startēju augstrata velosipēdu sacensībās Zviedrijā.')}}
                         </div>
@@ -38,7 +38,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/omega.jpg" />
+                        <img src="../assets/images/citi velosipēdi/omega.jpg" />
                         <div class="fullcap">
                             {{$t('Omega 1939.gads')}}
                         </div>
@@ -48,7 +48,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/Ravat.jpg" />
+                        <img src="../assets/images/citi velosipēdi/Ravat.jpg" />
                         <div class="fullcap imageLarge">
                             {{$t('Ravat 1938.gads Šo velosipēdu atjaunoju savai sievai.')}}
                         </div>
@@ -60,7 +60,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/tandēms.jpg" />
+                        <img src="../assets/images/citi velosipēdi/tandēms.jpg" />
                         <div class="fullcap">
                             {{$t('Tandēms, kuru izgatavoju no diviem veciem velosipēdiem, kuri būtu nonākuši metāllūžņos.')}}
                         </div>
@@ -70,7 +70,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/pedersen.jpg" />
+                        <img src="../assets/images/citi velosipēdi/pedersen.jpg" />
                         <div class="fullcap">
                             {{$t('Pedersen Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.')}}
                         </div>
@@ -82,7 +82,7 @@
             <div class="item">
                 <div class="image-col">
                     <div class="fullwrap">
-                        <img src="../../assets/images/citi velosipēdi/Sonāte.jpg" />
+                        <img src="../assets/images/citi velosipēdi/Sonāte.jpg" />
                         <div class="fullcap imageLargeEx">
                             {{$t("Udensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.")}}
                         </div>

@@ -147,8 +147,7 @@ article p {
     line-height: 60px;
 }
 .slide-content-wrap {
-    width: 50%;
-    padding:  20px 0 20px 20px;
+    padding:  0px 80px;
 }
 
 .section-header {
@@ -177,7 +176,7 @@ article p {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 80px;
+    padding: 80px;
 }
 .aboutText {
     width: 50%;
@@ -339,7 +338,6 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-    width: 100%;
 }
 .gallery {
     width: 10%;
@@ -522,7 +520,7 @@ h1 {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 80px;
+    padding: 0px 80px;
   }
   @media only screen and (max-width: 1500px) {
     .swiper {
@@ -532,7 +530,7 @@ h1 {
         font-size: 50px;
         width: 100%;
         text-align: center;
-        padding-right: 0;
+        padding: 0 20px;
     }
     .quote-wrapper h1 {
         padding-top: 10%;
@@ -567,7 +565,16 @@ h1 {
         display: block;
     }
     .timelineContainer {
-        padding: 0 30px;
+        padding: 0 20px;
+    }
+    .slide-content-wrap {
+        padding: 0 20px;
+    }
+    .fullwrap img {
+        max-width: 100%;
+    }
+    .fullwrap {
+        max-width: 100%;
     }
   }
   @media only screen and (max-width: 1300px) {
@@ -583,6 +590,10 @@ h1 {
     }
   }
   @media only screen and (max-width: 900px) {
+    .fullcap {
+        font-size: 20px;
+        line-height: 20px;
+    }
     .row {
         width: 100%;
     }
@@ -598,7 +609,7 @@ h1 {
         font-size: 40px;
     }
     .aboutMeContainer {
-        padding-left: 35px;
+        padding: 0px 30px;
     }
     .picture-container img {
         width: 100vw;
@@ -606,6 +617,9 @@ h1 {
     }
     article {
         width: 100%;
+    }
+    .galleryContainer {
+        padding: 0 30px;
     }
 
   }
@@ -615,3 +629,15 @@ h1 {
     }
 
   }
+
+
+
+
+
+
+
+.forward {
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+}
