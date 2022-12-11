@@ -6,8 +6,8 @@
             "Omega 1939.gads": "Omega 1939.gads",
             "Ravat 1938.gads Šo velosipēdu atjaunoju savai sievai.": "Ravat 1938.gads Šo velosipēdu atjaunoju savai sievai.",
             "Tandēms, kuru izgatavoju no diviem veciem velosipēdiem, kuri būtu nonākuši metāllūžņos.": "Tandēms, kuru izgatavoju no diviem veciem velosipēdiem, kuri būtu nonākuši metāllūžņos.",
-            "Pedersen Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.": "Pedersen Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.",
-            "Udensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.":"Udensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā."
+            "Pedersen velosipēds. Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.": "Pedersen velosipēds. Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.",
+            "Ūdensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.":"Ūdensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā."
         },
         "en": {
             "Velosipēdi": "Bycicles",
@@ -15,8 +15,8 @@
             "Omega 1939.gads": "Omega, year 1939",
             "Ravat 1938.gads Šo velosipēdu atjaunoju savai sievai.": "Ravat 1938 I restored this bicycle for my wife.",
             "Tandēms, kuru izgatavoju no diviem veciem velosipēdiem, kuri būtu nonākuši metāllūžņos.": "A tandem that I made from two old bikes that would have been scrapped.",
-            "Pedersen Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.": "Pedersen This bike is special with its frame construction. The seat of this bike is suspended by a strap and cables, which makes for a very comfortable ride. Road irregularities are not noticeable when driving.",
-            "Udensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.": "Water bicycle 'Sonate' I made this bicycle for enjoying nature in Lake Ķīšezers."
+            "Pedersen velosipēds. Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.": "Pedersen This bike is special with its frame construction. The seat of this bike is suspended by a strap and cables, which makes for a very comfortable ride. Road irregularities are not noticeable when driving.",
+            "Ūdensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.": "Water bicycle 'Sonate' I made this bicycle for enjoying nature in Lake Ķīšezers."
         }
     }
 </i18n>
@@ -72,7 +72,7 @@
                     <div class="fullwrap">
                         <img src="../assets/images/citi velosipēdi/pedersen.jpg" />
                         <div class="fullcap">
-                            {{$t('Pedersen Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.')}}
+                            {{$t('Pedersen velosipēds. Šis velosipēds ir īpašs ar rāmja konstrukciju. Šim velosipēdam sēdeklis ir iekārts siksnā un trosēs, kas nodrošina ļoti komfortablu braukšanu. Braucot nav jūtami ceļa nelīdzenumi.')}}
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     <div class="fullwrap">
                         <img src="../assets/images/citi velosipēdi/Sonāte.jpg" />
                         <div class="fullcap imageLargeEx">
-                            {{$t("Udensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.")}}
+                            {{$t("Ūdensvelosipēds 'Sonāte' Šo velosipēdu izgatavoju dabas baudīšanai Ķīšezerā.")}}
                         </div>
                     </div>
                 </div>
