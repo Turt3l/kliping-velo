@@ -11,7 +11,7 @@
         },
         "en": {
             "Velosipēdi": "Bycicles",
-            "Standard highwheels racer 52” Velosipēds ar kuru pirmo reizi mūžā startēju augstrata velosipēdu sacensībās Zviedrijā.":"Standard highwheels racer 52” The bike I used for the first time in my life in a high-speed bike race in Sweden.",
+            "Standard highwheels racer 52” Velosipēds ar kuru pirmo reizi mūžā startēju augstrata velosipēdu sacensībās Zviedrijā.":"Standard highwheels racer 52” The bike I used for the first time in my life in a high-wheeler bike race in Sweden.",
             "Omega 1939.gads": "Omega, year 1939",
             "Ravat 1938.gads Šo velosipēdu atjaunoju savai sievai.": "Ravat 1938 I restored this bicycle for my wife.",
             "Tandēms, kuru izgatavoju no diviem veciem velosipēdiem, kuri būtu nonākuši metāllūžņos.": "A tandem that I made from two old bikes that would have been scrapped.",
