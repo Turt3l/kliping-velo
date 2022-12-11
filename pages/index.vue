@@ -21,7 +21,7 @@
 
 <script>
 
-setTimeout(function() {
+setInterval(function() {
   document.getElementById("preloader").style.display = "none";
   document.getElementById("appContainer").classList.add("visible");
 }, 2000)

@@ -41,6 +41,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/i18n',
+    'nuxt-compress'
   ],
 
   pwa: {
@@ -52,8 +53,16 @@ export default {
   modules: [
     [
       '@nuxtjs/pwa',
-      '@nuxtjs/gtm',
-      'nuxt-lazy-load'
+      'nuxt-lazy-load',
+      'nuxt-compress',
+      {
+        gzip: {
+          threshold: 8192,
+        },
+        brotli: {
+          threshold: 8192,
+        },
+      },
     ]
   ],
   i18n: {

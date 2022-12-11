@@ -5,8 +5,8 @@
                 <img src="../assets/images/M.png">
             </div>
             <div class="header-links">
-                <a href="#about" class="about">{{$t('par')}}</a>
-                <a href="#history" class="history">{{$t('vēsture')}}</a>
+                <nuxt-link :to="switchLocalePath('lv')" class="about" v-if="$i18n.locale == 'en'">lv</nuxt-link>
+                <nuxt-link :to="switchLocalePath('en')" class="about" v-if="$i18n.locale == 'lv'">en</nuxt-link>
             </div>
         </div>
     </div>

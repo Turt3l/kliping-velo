@@ -2,7 +2,7 @@
     <div class="picture-quote-container">
         <div class="quote-wrapper">
             <!-- <h1>"</h1> -->
-            <h1>{{$t("Ar augstāku riteni augstāki sasniegumi")}}</h1>
+            <h1>{{$t("Augstāki sasniegumi ar augstāku riteni")}}</h1>
         </div>
         <div class="picture-container">
             <img src="../assets/images/velo.jpg"  />
@@ -43,10 +43,10 @@ export default {
 <i18n>
     {
         "lv": {
-            "Ar augstāku riteni augstāki sasniegumi": "Ar augstāku riteni augstāki sasniegumi"
+            "Augstāki sasniegumi ar augstāku riteni": "Augstāki sasniegumi ar augstāku riteni"
         },
         "en": {
-            "Ar augstāku riteni augstāki sasniegumi": "Higher achievements with a higher bike"
+            "Augstāki sasniegumi ar augstāku riteni": "Higher achievements with a higher bike"
         }
     }
 </i18n>
