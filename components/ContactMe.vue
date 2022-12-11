@@ -12,9 +12,6 @@
                     <a><img src="../assets/images/facebook.png"/>Mārtiņš Ekmanis</a>
                 </div>
                 <div class="contact">
-                    <a><img src="../assets/images/gmail.png"/>martins.ekmanis@gmail.com</a>
-                </div>
-                <div class="contact">
                     <a><img src="../assets/images/insta.png"/>@martinsekmanis</a>
                 </div>
             </div>
