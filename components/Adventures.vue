@@ -1,58 +1,121 @@
-
 <template>
-    <div class="slide-container">
-        <div class="slide-content-wrap">
-            <main>
-  <h1>{{ $t('Notikumi') }}</h1>
-  <section>
-    <h2>2017 & 2018</h2>
-    <div class="grid-wrapper">
-      <article>
-        <p>{{ $t('Amatnieku konkurss „Dari pats” 2017.gadā') }}</p>
-      </article>
-      <article>
-        <p>{{ $t('Tvīda brauciens Rīgā 2018.gada 12.maijā')}}</p>
-      </article>
-      <article>
-        <p>{{ $t('Tvīda brauciens Liepājā 2018.gada 20.maijā') }}</p>
-      </article>
+  <div class="slide-container">
+    <div class="slide-content-wrap">
+      <main>
+        <h1>{{ $t("Notikumi") }}</h1>
+        <section>
+          <h2>2017 & 2018</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>{{ $t("Amatnieku konkurss „Dari pats” 2017.gadā") }}</p>
+            </article>
+            <article>
+              <p>{{ $t("Tvīda brauciens Rīgā 2018.gada 12.maijā") }}</p>
+            </article>
+            <article>
+              <p>{{ $t("Tvīda brauciens Liepājā 2018.gada 20.maijā") }}</p>
+            </article>
 
-      <h2>2019</h2>
-      <article>
-        <p>{{ $t("Dalība izstādē 'Visa dzīve vienā divritenī' 2019.gadā") }}</p>
-      </article>
+            <h2>2019</h2>
+            <article>
+              <p>
+                {{
+                  $t("Dalība izstādē 'Visa dzīve vienā divritenī' 2019.gadā")
+                }}
+              </p>
+            </article>
 
-      <article>
-        <p>{{ $t("Tvīda brauciens Kuldīgā 2019.gada 25.maijā")}}</p>
-      </article>
-      <h2>2021</h2>
-      <article>
-        <p>{{ $t("Raidījums 'Ātruma cilts' 2021.gada 1.aprīlī")}}</p>
-        <a href="https://www.youtube.com/watch?v=v7Nd4STKZhg&ab_channel=manslmt">{{$t("Skatīties šeit")}}</a>
-      </article>
-      <article>
-        <p>{{$t("Raidījums 'Manas mājas ar IKEA' 2021.gada sezonas 6.sērija")}}</p>
-      </article>
-      <article>
-        <p>{{$t('Tvīda brauciens Mazsalacā 2021.gada 17.jūlijā')}}</p>
-      </article>
-      <article>
-        <p>{{$t('Viesturdāŗzam 300 audiogida prezentācija 2021.gada 23.jūlijā')}}</p>
-      </article>
+            <article>
+              <p>{{ $t("Tvīda brauciens Kuldīgā 2019.gada 25.maijā") }}</p>
+              <a
+                href="https://replay.lsm.lv/lv/skaties/ieraksts/ltv/159902/10-vislatvijas-tvida-brauciens-kuldiga"
+                >{{ $t("Skatīties šeit") }}</a
+              >
+            </article>
+            <h2>2021</h2>
+            <article>
+              <p>{{ $t("Raidījums 'Ātruma cilts' 2021.gada 1.aprīlī") }}</p>
+              <a
+                href="https://www.youtube.com/watch?v=v7Nd4STKZhg&ab_channel=manslmt"
+                >{{ $t("Skatīties šeit") }}</a
+              >
+            </article>
+            <article>
+              <p>
+                {{
+                  $t(
+                    "Raidījums 'Manas mājas ar IKEA' 2021.gada sezonas 6.sērija"
+                  )
+                }}
+              </p>
+            </article>
+            <article>
+              <p>{{ $t("Tvīda brauciens Mazsalacā 2021.gada 17.jūlijā") }}</p>
+            </article>
+            <article>
+              <p>
+                {{
+                  $t(
+                    "Viesturdāŗzam 300 audiogida prezentācija 2021.gada 23.jūlijā"
+                  )
+                }}
+              </p>
+            </article>
+          </div>
+        </section>
+        <section>
+          <h2>2022</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>
+                {{
+                  $t(
+                    "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā"
+                  )
+                }}
+              </p>
+              <a href="https://www.youtube.com/watch?v=fmB3DTmKTRA&t=28s">{{
+                $t("Skatīties šeit")
+              }}</a>
+            </article>
+          </div>
+        </section>
+        <section>
+          <h2>2023</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>
+                {{
+                  $t(
+                    "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā"
+                  )
+                }}
+              </p>
+            </article>
+            <article>
+              <p>
+                {{ $t("34.Vienības brauciens") }}
+              </p>
+            </article>
+          </div>
+        </section>
+        <section style="width: 100%">
+          <h2>2024</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>
+                {{ $t("Rīgas Tvīda brauciens 2024") }}
+              </p>
+              <a
+                href="https://replay.lsm.lv/lv/skaties/ieraksts/ltv/337734/riga-aizvadits-krasnais-tvida-brauciens"
+                >{{ $t("Skatīties šeit") }}</a
+              >
+            </article>
+          </div>
+        </section>
+      </main>
     </div>
-  </section>
-  <section>
-    <h2>2022</h2>
-    <div class="grid-wrapper">
-      <article>
-        <p>{{$t("Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā")}}</p>
-      </article>
-      
-    </div>
-  </section>
-</main>
-        </div>
-    </div>
+  </div>
 </template>
 
 <i18n>
@@ -69,7 +132,10 @@
       "Raidījums 'Manas mājas ar IKEA' 2021.gada sezonas 6.sērija": "Raidījums 'Manas mājas ar IKEA' 2021.gada sezonas 6.sērija",
       "Tvīda brauciens Mazsalacā 2021.gada 17.jūlijā": "Tvīda brauciens Mazsalacā 2021.gada 17.jūlijā",
       "Viesturdāŗzam 300 audiogida prezentācija 2021.gada 23.jūlijā": "Viesturdāŗzam 300 audiogida prezentācija 2021.gada 23.jūlijā",
-      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā"
+      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā",
+      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā": "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā",
+      "34.Vienības brauciens": "34.Vienības brauciens",
+      "Rīgas Tvīda brauciens 2024":"Rīgas Tvīda brauciens 2024"
     },
     "en": {
       "Amatnieku konkurss „Dari pats” 2017.gadā": "Craftsman competition 'Dari pats' in the year 2017",
@@ -83,7 +149,10 @@
       "Raidījums 'Manas mājas ar IKEA' 2021.gada sezonas 6.sērija": "The show 'Manas mājas ar IKEA' 2021 season, episode 6",
       "Tvīda brauciens Mazsalacā 2021.gada 17.jūlijā": "Tweed ride in Mazsalaca on 17th of july, 2021",
       "Viesturdāŗzam 300 audiogida prezentācija 2021.gada 23.jūlijā": "Presentation of the audio guide for Viesturdarzs 300 on July 23, 2021",
-      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "High-wheel bicycle competition 'Sweden3days' in Sweden in 2022"
+      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "High-wheel bicycle competition 'Sweden3days' in Sweden in 2022",
+      "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā": "High-wheel bicycle competition 'Sweden3days' in Sweden in 2023",
+      "34.Vienības brauciens": "34th ride of unity",
+      "Rīgas Tvīda brauciens 2024": "Tweed ride in Riga 2024"
     }
   }
 </i18n>
