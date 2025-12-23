@@ -92,10 +92,39 @@
                 }}
               </p>
             </article>
+          </div>
+        </section>
+        <section style="width: 100%">
+          <h2>2024</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>
+                {{ $t("Rīgas Tvīda brauciens 2024") }}
+              </p>
+              <a
+                href="https://replay.lsm.lv/lv/skaties/ieraksts/ltv/337734/riga-aizvadits-krasnais-tvida-brauciens"
+                >{{ $t("Skatīties šeit") }}</a
+              >
+            </article>
             <article>
               <p>
                 {{ $t("34.Vienības brauciens") }}
               </p>
+            </article>
+          </div>
+        </section>
+        <section style="width: 100%">
+          <h2>2025</h2>
+          <div class="grid-wrapper">
+            <article>
+              <p>
+                {{ $t("Rīgas Tvīda brauciens 2025") }}
+              </p>
+              <a
+                href="https://tv3.lv/zinas/latvija/kosi-retro-terpi-un-eleganti-velosipedi-riga-aizvadits-jau-16-tvida-brauciens/?utm_source=copy_link&utm_medium=social&utm_campaign=share_buttons"
+                target="_blank"
+                >{{ $t("Skatīties sižetu") }}</a
+              >
             </article>
           </div>
         </section>
@@ -123,6 +152,7 @@
     "lv": {
       "Notikumi": "Notikumi",
       "Skatīties šeit": "Skatīties šeit",
+      "Skatīties sižetu": "Skatīties sižetu",
       "Amatnieku konkurss „Dari pats” 2017.gadā":"Amatnieku konkurss „Dari pats” 2017.gadā",
       "Tvīda brauciens Rīgā 2018.gada 12.maijā":"Tvīda brauciens Rīgā 2018.gada 12.maijā",
       "Tvīda brauciens Liepājā 2018.gada 20.maijā": "Tvīda brauciens Liepājā 2018.gada 20.maijā",
@@ -135,7 +165,8 @@
       "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā",
       "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā": "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā",
       "34.Vienības brauciens": "34.Vienības brauciens",
-      "Rīgas Tvīda brauciens 2024":"Rīgas Tvīda brauciens 2024"
+      "Rīgas Tvīda brauciens 2024":"Rīgas Tvīda brauciens 2024",
+      "Rīgas Tvīda brauciens 2025": "Rīgas Tvīda brauciens 2025"
     },
     "en": {
       "Amatnieku konkurss „Dari pats” 2017.gadā": "Craftsman competition 'Dari pats' in the year 2017",
@@ -152,7 +183,9 @@
       "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2022.gadā": "High-wheel bicycle competition 'Sweden3days' in Sweden in 2022",
       "Augstrata velosipēdu sacensības 'Sweden3days' Zviedrijā 2023.gadā": "High-wheel bicycle competition 'Sweden3days' in Sweden in 2023",
       "34.Vienības brauciens": "34th ride of unity",
-      "Rīgas Tvīda brauciens 2024": "Tweed ride in Riga 2024"
+      "Rīgas Tvīda brauciens 2024": "Tweed ride in Riga 2024",
+      "Rīgas Tvīda brauciens 2025": "Tweed ride in Riga 2025",
+      "Skatīties sižetu": "Watch the segment"
     }
   }
 </i18n>
