@@ -185,7 +185,7 @@
       "34.Vienības brauciens": "34th ride of unity",
       "Rīgas Tvīda brauciens 2024": "Tweed ride in Riga 2024",
       "Rīgas Tvīda brauciens 2025": "Tweed ride in Riga 2025",
-      "Skatīties sižetu": "Watch the segment"
+      "Skatīties sižetu": "Watch the segment here"
     }
   }
 </i18n>
