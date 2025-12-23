@@ -128,20 +128,6 @@
             </article>
           </div>
         </section>
-        <section style="width: 100%">
-          <h2>2024</h2>
-          <div class="grid-wrapper">
-            <article>
-              <p>
-                {{ $t("Rīgas Tvīda brauciens 2024") }}
-              </p>
-              <a
-                href="https://replay.lsm.lv/lv/skaties/ieraksts/ltv/337734/riga-aizvadits-krasnais-tvida-brauciens"
-                >{{ $t("Skatīties šeit") }}</a
-              >
-            </article>
-          </div>
-        </section>
       </main>
     </div>
   </div>
